@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./navbar.jsx";
 import Jumbotron from "./Jumbotron.jsx";
 import Card from "./Card.jsx";
-import Footer from "./Footer.jsx"; // 1. Importas la última pieza
+import Footer from "./Footer.jsx"; 
 
 const Home = () => {
   const myCards = [
@@ -44,7 +44,7 @@ const Home = () => {
           ))}
         </div>
       </div>
-      <Footer /> {/* 2. Colocas el Footer al final */}
+      <Footer /> {}
     </div>
   );
 };
